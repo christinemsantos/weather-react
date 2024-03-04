@@ -12,3 +12,14 @@
   padding: 0px;
   list-style-type: none;
 }
+.Weather form {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  max-width: 600px;
+}
+.Weather h1 {
+  font-size: 24px;
+  font-weight: 100;
+  margin: 20px 0 0 0;
+  line-height: 29px;
+}
