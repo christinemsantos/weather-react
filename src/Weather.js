@@ -5,12 +5,12 @@ export default function Weather() {
   return (
     <div className="Weather">
       <h1>New York</h1>
-      <ul>
-        <li>Wednesday 12:34pm</li>
-        <li>Sunny</li>
-      </ul>
+      <h4>Wednesday 12:34pm</h4>
       <div className="row">
         <div className="col-6">
+          <ul>
+            <li>Sunny</li>
+          </ul>
           <img src="" alt="Sunny" />
           85°F
         </div>

@@ -1,19 +1,18 @@
 import "./App.css";
 import "./index.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import Weather from "./Weather";
 import WeatherSearch from "./WeatherSearch";
 import Footer from "./Footer";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather />
         <WeatherSearch />
+        <Weather />
         <Footer />
       </div>
     </div>
   );
 }
-
-export default App;

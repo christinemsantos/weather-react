@@ -1,3 +1,14 @@
 .Weather {
-  background-color: gold;
+  font-family: arial, sans-serif;
+  border: 1px solid teal;
+  padding: 16px;
+  margin: 30px auto;
+  max-width: 600px;
+  border-radius: 4px;
+  color: rgb(135, 135, 135);
+}
+.Weather ul {
+  margin: 0;
+  padding: 0px;
+  list-style-type: none;
 }

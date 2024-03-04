@@ -15,13 +15,24 @@ export default function WeatherSearch() {
   return (
     <div className="WeatherSearch">
       <form onSubmit={handleSubmit}>
-        <input
-          type="search"
-          placeholder="Enter a city..."
-          onChange={changeCity}
-        />
-        <input type="submit" value="Search" />
+        <div className="row">
+          <div className="col-9">
+            <input
+              type="search"
+              placeholder="Enter a city..."
+              onChange={changeCity}
+            />
+          </div>
+          <div className="col-3">
+            <input
+              type="submit"
+              value="Search"
+              className="btn btn-primary w-100"
+            />
+          </div>
+        </div>
       </form>
+
       <h2>{message}</h2>
     </div>
   );
